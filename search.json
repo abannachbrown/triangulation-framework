@@ -1,0 +1,310 @@
+[
+  {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "About & references",
+    "section": "",
+    "text": "Print this page\n\n Download complete PDF"
+  },
+  {
+    "objectID": "sources.html#about-this-draft",
+    "href": "sources.html#about-this-draft",
+    "title": "About & references",
+    "section": "About this draft",
+    "text": "About this draft\nThis v0.1 methodological discussion draft presents a causal-assumption framework linking a directed acyclic graph (DAG), an assumption register, and a Summary of Evidence table (SET). The templates, terminology, and reporting examples are proposals for review, not validated guidance or adopted standards. The Briefing sets out the four feedback questions."
+  },
+  {
+    "objectID": "sources.html#methodological-context",
+    "href": "sources.html#methodological-context",
+    "title": "About & references",
+    "section": "Methodological context",
+    "text": "Methodological context\nTurner RM, Spiegelhalter DJ, Smith GCS, Thompson SG. Bias modelling in evidence synthesis. Journal of the Royal Statistical Society: Series A. 2009;172(1):21–47. Read the paper.\nThe proposed framework is a qualitative counterpart to quantitative bias modelling: it makes causal structure, stream-specific contributions, connecting assumptions, and possible shared biases explicit. It does not estimate bias parameters or replace quantitative adjustment."
+  },
+  {
+    "objectID": "sources.html#applications-and-evidence",
+    "href": "sources.html#applications-and-evidence",
+    "title": "About & references",
+    "section": "Applications and evidence",
+    "text": "Applications and evidence\n\nTAAR1: retrospective illustration\nThe TAAR1 example reconstructs how the framework could have supported a completed review. Its diagram, assumption IDs, and statuses are illustrative retrospective judgements, not records of the original panel using these tools.\nThe worked SET reports estimates and 95% confidence intervals from the published triangulation and the living systematic review. It is not a current evidence update or an independent audit of those publications.\n\n\nLSR8: ongoing application\nFor Heat & Mental Health, the framework is being introduced after protocol completion, while the living systematic reviews are underway. Proposed assumptions and priority adjudications remain open for review; they are not completed meeting conclusions."
+  },
+  {
+    "objectID": "sources.html#protocol-sources",
+    "href": "sources.html#protocol-sources",
+    "title": "About & references",
+    "section": "Templates and figures",
+    "text": "Templates and figures\nThe protocol proposals reproduce proposed additions to the associations v3.2 and hypothesis-generating v2.2 templates. Extracts and blank working templates are available on the relevant proposal pages; the original internal Word drafts are not distributed here.\nThe TAAR1 DAG is a simplified reconstruction highlighting selected assumptions; its proxy connection is not a physical causal arrow. The six LSR8 diagrams reproduce the draft v1.1 figures without redrawing. The deliverables schematic illustrates the proposed workflow, not a causal model. Diagrams express assumptions to examine, not established effects."
+  },
+  {
+    "objectID": "taar1.html",
+    "href": "taar1.html",
+    "title": "TAAR1 · Retrospective application",
+    "section": "",
+    "text": "Print this page\n\n Download complete PDF\nTAAR1 illustrates how human symptom outcomes, animal behavioural outcomes, and mechanistic evidence contribute to different parts of the question. This page holds the worked diagram and register; the Summary of Evidence table (SET) shows how they connect to the reported findings."
+  },
+  {
+    "objectID": "taar1.html#taar1-dag",
+    "href": "taar1.html#taar1-dag",
+    "title": "TAAR1 · Retrospective application",
+    "section": "DAG and selected assumptions",
+    "text": "DAG and selected assumptions\nA proxy is a measured variable used to stand in for another construct. Here A1 marks the contested animal-to-human proxy connection and A3 the uncertain proposed mechanism.\n\n\n\n\n\n\nFigure 1: TAAR1 retrospective DAG with selected assumptions highlighted. Solid arrows show hypothesised causal paths; the dashed A1 connector represents proxy relevance rather than a causal arrow."
+  },
+  {
+    "objectID": "taar1.html#taar1-assumption-register",
+    "href": "taar1.html#taar1-assumption-register",
+    "title": "TAAR1 · Retrospective application",
+    "section": "Assumption register",
+    "text": "Assumption register\nThese summaries retain the source register’s IDs and judgements. The labels connect the diagram to explicit statements that can be discussed and challenged.\n\n\n\n\n\n\n\n\n\nID\nType\nAssumption\nStatus\n\n\n\n\nA1\nProxy\nReversal of challenge-induced hyperlocomotion is informative about the target human symptom outcome.\nContested.\n\n\nA2\nIndirectness\nPreclinical doses and compounds are relevant to human therapeutic exposure.\nContested.\n\n\nA3\nStructural\nTAAR1 agonism influences symptoms through presynaptic dopamine regulation.\nUncertain.\n\n\nA4\nIdentifying\nRandomisation and blinding support the human trial comparison.\nAgreed.\n\n\nA5\nIndirectness\nThe trial populations adequately represent the target population.\nContested.\n\n\nA6\nProxy / measurement\nPANSS total is sensitive to the symptom changes relevant to the proposed mechanism.\nContested.\n\n\nA7\nStructural\nThe animal effect concerns reversal of an established phenotype rather than prevention of its induction.\nUncertain.\n\n\n\n\n\nEvidence contributions — supporting detail\n\n\n\n\n\n\n\n\nContribution\nWhat it informs\n\n\n\n\nHuman randomised trials\nThe treatment contrast for measured human symptom outcomes.\n\n\nAnimal experimental evidence\nThe effect on the measured animal behavioural outcome; human relevance requires a proxy assumption.\n\n\nPET mechanistic substudy\nThe proposed dopamine-related mechanism; this does not by itself establish mediation or clinical benefit.\n\n\n\nAn inferential proxy connection is distinct from a physical causal arrow. Recording it does not make the animal and human outcomes the same estimand."
+  },
+  {
+    "objectID": "taar1.html#from-the-example-to-the-templates",
+    "href": "taar1.html#from-the-example-to-the-templates",
+    "title": "TAAR1 · Retrospective application",
+    "section": "From the example to the templates",
+    "text": "From the example to the templates\nUse the protocol prompts to prepare the proposed structure, the four-step worksheet to record deliberation, and the worked SET and wording to report the conditional interpretation. The SET includes the actual estimates and 95% confidence intervals.\nThe retrospective example can expose ambiguous terms and missing fields. Practical usefulness and burden need testing in LSR8’s ongoing reviews.\n\nThis is an illustrative retrospective reconstruction. Evidence sources and limitations. The Briefing page holds the meeting questions."
+  },
+  {
+    "objectID": "taar1.html#blank-templates",
+    "href": "taar1.html#blank-templates",
+    "title": "TAAR1 · Retrospective application",
+    "section": "Blank templates",
+    "text": "Blank templates\nProtocol amendments Word meeting worksheet SET template"
+  },
+  {
+    "objectID": "worksheet.html",
+    "href": "worksheet.html",
+    "title": "Proposal 2 · Triangulation meeting worksheet",
+    "section": "",
+    "text": "Print this page\n\n Download complete PDF"
+  },
+  {
+    "objectID": "worksheet.html#purpose",
+    "href": "worksheet.html#purpose",
+    "title": "Proposal 2 · Triangulation meeting worksheet",
+    "section": "Purpose",
+    "text": "Purpose\nThe worksheet gives the panel a common record of how evidence changes its interpretation of the DAG and its assumptions. The Summary of Evidence table (SET) summarises the evidence; the assumption register records the conditions attached to the interpretation.\nSee the TAAR1 DAG and register for the worked illustration. The worksheet below turns that reasoning into prompts a meeting can use."
+  },
+  {
+    "objectID": "worksheet.html#four-steps",
+    "href": "worksheet.html#four-steps",
+    "title": "Proposal 2 · Triangulation meeting worksheet",
+    "section": "Four steps",
+    "text": "Four steps\n\n\n\n\n\n\n\nStep\nWhat the team records\n\n\n\n\n1. Map\nThe relationship or query each stream informs, the estimate or finding, and the assumptions needed to connect it to the target question.\n\n\n2. Compare\nWhether the questions, populations, measures, and timescales are comparable; where findings agree or diverge.\n\n\n3. Examine bias\nShared and differing bias mechanisms, their expected directions, and the implications for interpretation.\n\n\n4. Revise and record\nThe conclusion and its conditions; changes to assumptions or the diagram; unresolved questions and actions."
+  },
+  {
+    "objectID": "worksheet.html#proposed-worksheet-fields",
+    "href": "worksheet.html#proposed-worksheet-fields",
+    "title": "Proposal 2 · Triangulation meeting worksheet",
+    "section": "Proposed worksheet fields",
+    "text": "Proposed worksheet fields\n\n\n\n\n\n\n\nBefore the discussion\nAfter the discussion\n\n\n\n\nTarget question; date and participants; diagram, register, and SET versions; evidence already known when the framework was adopted.\nConclusion and conditions; revised versions; actions, owners, and review dates.\n\n\n\nThe Word worksheet provides blank tables and response spaces for these fields and the four steps. It can be completed before and during a meeting, then kept with the review records.\n\n\nDetailed questions for follow-up\n\n\nWhich fields are essential for the panel, and which can be prepared or maintained elsewhere?\nIs the preparation and recording burden justified, and who owns the record between updates?\n\n\nThe four questions on the Briefing page guide the meeting discussion."
+  },
+  {
+    "objectID": "worksheet.html#blank-templates",
+    "href": "worksheet.html#blank-templates",
+    "title": "Proposal 2 · Triangulation meeting worksheet",
+    "section": "Blank templates",
+    "text": "Blank templates\nDownload the fillable Word worksheet (.docx) Markdown source (.md) Assumption register (.csv)"
+  },
+  {
+    "objectID": "concepts.html",
+    "href": "concepts.html",
+    "title": "Concepts: the terms needed for this proposal",
+    "section": "",
+    "text": "Print this page\n\n Download complete PDF"
+  },
+  {
+    "objectID": "concepts.html#the-argument",
+    "href": "concepts.html#the-argument",
+    "title": "Concepts: the terms needed for this proposal",
+    "section": "The argument",
+    "text": "The argument\nThe proposed unit of reasoning is target relationship → stream-specific contribution → connecting assumptions. A cross-stream judgement needs to specify what each stream informs and the conditions under which its findings bear on the target question. Shared bias remains a possible explanation for apparent agreement.\nThe framework extends familiar within-study DAG reasoning to this between-stream setting. The DAG shows the proposed causal structure; the register records the connecting assumptions; the Summary of Evidence table (SET) links the findings to them. Its role as a qualitative counterpart to quantitative bias modelling is explained in the Briefing."
+  },
+  {
+    "objectID": "concepts.html#worked-register",
+    "href": "concepts.html#worked-register",
+    "title": "Concepts: the terms needed for this proposal",
+    "section": "A worked illustration",
+    "text": "A worked illustration\nThe TAAR1 example shows the DAG and its assumption register together. Selected labels identify the proxy connection and the proposed mechanism. The worked evidence summary shows how the register links enter the SET."
+  },
+  {
+    "objectID": "concepts.html#seven-terms-for-this-discussion",
+    "href": "concepts.html#seven-terms-for-this-discussion",
+    "title": "Concepts: the terms needed for this proposal",
+    "section": "Seven terms for this discussion",
+    "text": "Seven terms for this discussion\n\n\n\n\n\n\n\nTerm\nWorking definition\n\n\n\n\nCausal DAG — directed acyclic graph\nA diagram of hypothesised direct causal influences, with no directed cycles. Both arrows and omitted arrows encode assumptions.\n\n\nAssumption register\nA versioned record of assumptions with IDs, statements, affected relationships/streams, judgements, rationale, and what could challenge them.\n\n\nProxy\nA measured variable used to stand in for another construct. Its relevance needs justification; the animal behavioural outcome and human symptom outcome remain distinct.\n\n\nEstimand\nThe precise quantity sought: for example, a treatment contrast in a specified population, outcome, and follow-up.\n\n\nIndirectness / applicability\nA difference between the evidence and the target population, exposure/intervention, outcome, timing, or setting that affects its relevance.\n\n\nSET — Summary of Evidence table\nA concise account of findings, bias, applicability, and the assumptions relevant to triangulation.\n\n\nBias type — offset versus scaling\nOffset (additive / shift) bias adds a distortion and can move a true null. Scaling (proportional / stretch) bias multiplies an effect on the stated scale; a true zero remains zero on that scale."
+  },
+  {
+    "objectID": "concepts.html#reference-appendix",
+    "href": "concepts.html#reference-appendix",
+    "title": "Concepts: the terms needed for this proposal",
+    "section": "Reference appendix",
+    "text": "Reference appendix\n\n\nAdditional methodological terms\n\nThese definitions retain the rest of the source glossary for reference.\n\n\n\n\n\n\n\nTerm\nWorking definition\n\n\n\n\nNode\nA variable in the diagram, such as exposure, a mediator, or an outcome.\n\n\nEdge / arrow\nAn assumed direct causal influence between two nodes. A target question can concern several paths rather than one arrow.\n\n\nDirect versus total effect\nA direct effect excludes pathways through specified mediators; a total effect includes pathways through them. A trial’s total-effect estimate should not automatically be attached to a direct arrow.\n\n\nConfounder\nA variable that causally influences both exposure and outcome, creating a non-causal route between them.\n\n\nEffect modifier\nA characteristic across whose values an effect differs on a specified scale. It is not necessarily a confounder.\n\n\nMediator\nA variable on a causal pathway, such as exposure → mediator → outcome. Adjusting for it can change the quantity being estimated.\n\n\nCollider\nA variable caused by two other variables. Conditioning on it can open a non-causal path.\n\n\nScoping mode versus hypothesis mode\nScoping mode uses the diagram to clarify the question and evidence contributions. Hypothesis mode makes proposed pathways explicit for examination. Record the diagram’s purpose and when it was introduced.\n\n\nSMD — standardised mean difference\nAn effect expressed in standard-deviation units. Similar units do not make different outcomes or target quantities equivalent.\n\n\nBias direction — towards or away from the null\nHow a bias is expected to move an estimate relative to the true value, for a specified contrast and scale. Direction may be uncertain or involve crossing the null.\n\n\nTriangulation\nDrawing an interpretation across evidence contributions while examining their different and shared key sources of bias and assumptions.\n\n\nOrthogonality / differing bias structures\nThe extent to which key bias mechanisms differ across streams. Independence needs justification; different design labels alone do not establish it.\n\n\nCausal-assumption framework (“scaffolding”)\nThe proposed structure connecting the DAG, explicit assumptions, evidence summaries, meeting deliberation, and reporting.\n\n\nAssumption types\nFour proposed categories: structural, identifying, proxy, and indirectness/applicability, defined below.\n\n\nStructural assumption\nA claim about a causal relationship or its absence, such as the proposed dopamine pathway in TAAR1 (A3).\n\n\nIdentifying assumption\nA condition needed for a study’s estimate to identify the stated causal quantity, such as sufficient confounding control for an observational contrast.\n\n\nProxy assumption\nA claim that a measured proxy is informative about the target construct, such as the contested TAAR1 animal-to-human connection (A1).\n\n\nIndirectness assumption\nA claim about the extent to which findings transfer to the target population, intervention/exposure, outcome, or setting.\n\n\nTarget relationship / causal query\nThe question the review seeks to answer. It may concern an association, a total effect, a direct effect, or a mediated pathway.\n\n\nEvidence stream\nEvidence grouped by a relevant design or inferential approach; distinct identifying assumptions can require separate streams.\n\n\nEvidence contribution map\nA table showing what each stream can inform and which assumptions connect it to the target question.\n\n\nDecision log\nA dated record of changes, reasons, and ownership, linking successive diagram and register versions."
+  },
+  {
+    "objectID": "concepts.html#blank-template",
+    "href": "concepts.html#blank-template",
+    "title": "Concepts: the terms needed for this proposal",
+    "section": "Blank template",
+    "text": "Blank template\nDownload the assumption register"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Making causal assumptions explicit in triangulation",
+    "section": "",
+    "text": "Print this page\n\n Download complete PDF"
+  },
+  {
+    "objectID": "index.html#the-problem",
+    "href": "index.html#the-problem",
+    "title": "Making causal assumptions explicit in triangulation",
+    "section": "The problem",
+    "text": "The problem\nCross-stream agreement in triangulation is currently interpreted without making explicit the causal structure, proxy validity, and applicability assumptions that connect each stream to the target question — and shared biases can manufacture apparent agreement."
+  },
+  {
+    "objectID": "index.html#the-conceptual-claim-to-stress-test",
+    "href": "index.html#the-conceptual-claim-to-stress-test",
+    "title": "Making causal assumptions explicit in triangulation",
+    "section": "The conceptual claim to stress-test",
+    "text": "The conceptual claim to stress-test\n\nTarget relationship → Stream-specific contribution → Connecting assumptions\n\nThis is the unit of reasoning I want the team to stress-test: whether it captures what warrants a cross-stream judgement, including when shared bias could explain agreement. The methodological aim is to make that reasoning explicit and reviewable; the templates are its practical application."
+  },
+  {
+    "objectID": "index.html#where-this-sits-methodologically",
+    "href": "index.html#where-this-sits-methodologically",
+    "title": "Making causal assumptions explicit in triangulation",
+    "section": "Where this sits methodologically",
+    "text": "Where this sits methodologically\nDirected acyclic graphs (DAGs) are familiar tools for making the assumptions behind confounding control within a study explicit. This proposal extends that logic to the between-stream setting: which target relationship each stream informs, and which identifying, proxy, and applicability assumptions connect its contribution to that target."
+  },
+  {
+    "objectID": "index.html#what-i-mean-by-the-framework",
+    "href": "index.html#what-i-mean-by-the-framework",
+    "title": "Making causal assumptions explicit in triangulation",
+    "section": "What I mean by the framework",
+    "text": "What I mean by the framework\nThe working notes call this “scaffolding”: a linked set of visual and written tools that helps a team make its assumptions explicit and carry its reasoning between stages of a review.\nThe DAG visualises the hypothesised causal structure. An assumption register records the assumptions, their rationale, and what could challenge them. The Summary of Evidence table (SET) connects the findings to those assumptions. The three templates guide how the team prepares, discusses, and reports this information.\nSee the worked TAAR1 DAG and register →\n\n\n\nThree proposed deliverables — protocol templates, a meeting worksheet, and reporting with a SET — and the reasoning each supports."
+  },
+  {
+    "objectID": "index.html#three-templates-as-methods-contributions",
+    "href": "index.html#three-templates-as-methods-contributions",
+    "title": "Making causal assumptions explicit in triangulation",
+    "section": "Three templates as methods contributions",
+    "text": "Three templates as methods contributions\nThe templates are the practical application of the framework.\n\n\n\nProposal\nWhat would change?\nPractical output\n\n\n\n\n1. Protocol templates\nUse a DAG to identify assumptions and plan how evidence could inform them.\nProposed wording for both protocol routes.\n\n\n2. Triangulation meeting worksheet\nRecord how evidence and bias affect interpretation of the DAG and its assumptions.\nA four-step worksheet to complete in Word.\n\n\n3. Reporting and evidence summary\nConnect the conclusion to the assumptions it depends on.\nExisting SET columns plus Key Assumptions, and reporting wording."
+  },
+  {
+    "objectID": "index.html#two-applications-at-different-stages",
+    "href": "index.html#two-applications-at-different-stages",
+    "title": "Making causal assumptions explicit in triangulation",
+    "section": "Two applications, at different stages",
+    "text": "Two applications, at different stages\n\n\n\nApplication\nStage and purpose\n\n\n\n\nTAAR1\nA retrospective reconstruction showing what the framework could make explicit in a completed triangulation.\n\n\nLSR8 · Heat & Mental Health\nThe ongoing application, introduced after protocol completion while the living systematic reviews are being conducted."
+  },
+  {
+    "objectID": "index.html#feedback-sought",
+    "href": "index.html#feedback-sought",
+    "title": "Making causal assumptions explicit in triangulation",
+    "section": "Feedback sought",
+    "text": "Feedback sought\n\nConceptual: Is the proposed unit of reasoning appropriate: a target relationship or causal query, the stream-specific evidence contribution, and the assumptions connecting them?\nConceptual: Does the register clarify the distinction between causal structure, identification, proxy validity, and applicability? What is missing or redundant?\nPractical: What is the minimum useful information for a protocol, a meeting, and a published SET? Who should maintain it across updates?\nEvaluation: What observations in LSR8 would show whether the framework changes the clarity, consistency, or burden of deliberation?\n\n\nThis discussion concerns qualitative appraisal and documentation. Quantitative parameterisation and weighting are later developments. About and references."
+  },
+  {
+    "objectID": "protocol.html",
+    "href": "protocol.html",
+    "title": "Proposal 1 · Update protocol templates",
+    "section": "",
+    "text": "Print this page\n\n Download complete PDF"
+  },
+  {
+    "objectID": "protocol.html#why-update-the-templates",
+    "href": "protocol.html#why-update-the-templates",
+    "title": "Proposal 1 · Update protocol templates",
+    "section": "Why update the templates?",
+    "text": "Why update the templates?\nThe associations workflow produces a Summary of Evidence table (SET). The hypothesis-generating workflow already recommends a DAG and produces a Summary of Evidence on Mediators (SEM). The amendments connect the causal diagram, assumption register, and meeting record across both routes.\nThe retrospective TAAR1 example motivates the proposed changes:\n\n\n\n\n\n\n\nGap illustrated by the retrospective example\nWhat the amendment addresses\n\n\n\n\nAssociation and mechanism questions can occur in the same review.\nDeclare the review mode and the diagram’s purpose.\n\n\nPathways may be reconstructed after the findings.\nRecord the proposed structure and challenge conditions before synthesis.\n\n\nThe two template routes produce different evidence summaries.\nLink both routes to the DAG and assumption register.\n\n\nMeeting reasoning may remain implicit.\nPreserve the assumptions, judgements, and revisions in a reusable record."
+  },
+  {
+    "objectID": "protocol.html#what-changes-in-each-template",
+    "href": "protocol.html#what-changes-in-each-template",
+    "title": "Proposal 1 · Update protocol templates",
+    "section": "What changes in each template?",
+    "text": "What changes in each template?\nThe uploaded drafts frame all additions as recommendations. These practical prompts are a main methods contribution for review.\n\n\n\n\n\n\n\n\nTemplate\nWhere the additions appear\nPractical change proposed\n\n\n\n\nAssociations v3.2 draft\nResearch questions; reporting bias; evidence summary; triangulation meeting.\nDeclare the review mode, introduce a versioned DAG and register, record bias direction, and use the assumptions in meeting conclusions.\n\n\nHypothesis-generating v2.2 draft\nDAG guidance; data extraction; SEM; bridge to triangulation; consensus meeting.\nVersion the existing DAG, extract assumption-relevant information, connect the SEM to the register, and prepare a SET-style input for triangulation.\n\n\n\n\n\nVerbatim yellow-highlighted extracts — for template owners\n\nThe 25 highlighted paragraphs are reproduced without rewriting. The original Word drafts remain internal; a download of the proposed wording is provided below.\n\nAssociations v3.2 draftHypothesis-generating v2.2 draft\n\n\n\nResearch questions\n\nReview mode and causal structure (recommended):\nWe recommend that you state the primary mode of the review: evaluating associations, hypothesis-generating, or a mixture of both. If any research question concerns mechanisms of action or hypothesised causal pathways, we recommend declaring this explicitly as a secondary (hypothesis-generating) mode.\nWe recommend that, in that case, you draw a scoping directed acyclic graph (DAG) at protocol stage: the variables of interest, the hypothesised directional links between them (including candidate mediators), and the outcome(s). The DAG is a working hypothesis, not a finding, and should be versioned (dated and archived).\nWe recommend that research questions about causal pathways are then answered edge by edge against the pre-specified DAG (i.e. “is the evidence consistent with this hypothesised link?”), rather than by reconstructing pathways after the findings.\n\n\n\nReporting bias\n\nWe recommend that, for each major bias, the likely direction of the resulting error is recorded relative to the relevant DAG edge (towards null, away from null, or unpredictable), in addition to the risk-of-bias judgement. Where quantitative bias adjustment is planned, the bias type can also be recorded: offset (additive) bias shifts every estimate by a roughly fixed amount and can create an effect where the true effect is zero, whereas scaling (proportional) bias inflates or shrinks estimates in proportion to their size and cannot.\n\n\n\nSummary of the evidence\n\nMaking the Summary of Evidence (SET) table DAG-compatible (recommended):\nWe recommend adding the following fields to each row of the Summary of Evidence (SET) table: (i) which DAG edge(s) the evidence stream informs; (ii) up to three key assumptions on which the estimate depends, each typed as structural, identifying, indirectness or proxy, with status (agreed / contested / uncertain); (iii) the expected direction of each major bias relative to the relevant DAG edge (towards null / away from null / unpredictable); and (iv) a link to the versioned DAG and assumption register.\nWe recommend that the assumption register is seeded at protocol stage and versioned. Each entry records the assumption, its type, the evidence streams it concerns, its status, and what evidence would challenge it.\n\n\n\nTriangulation meeting\n\nUsing the DAG and assumption register at the triangulation meeting (recommended):\nWe recommend that, before the meeting, each SET table row is mapped onto the DAG edge(s) it informs. Streams that inform different edges do not directly agree or disagree; any statement about agreement between them traverses an assumption (e.g. a proxy assumption) that should be named.\nWe recommend that conclusions are reported per DAG edge, with the traversed assumptions stated, rather than as a single global judgement.\nWe recommend that orthogonality is judged from the directions of the streams' major biases: streams whose biases favour findings in opposite directions (one towards null, one away from null) make agreement between them strongly informative. Representing each bias as a factor in the DAG makes this a checkable claim (the biases should share no common cause).\nWe recommend applying three revision triggers during the meeting: (a) evidence incompatible with a DAG edge; (b) an evidence stream that maps onto no edge; (c) an assumption challenged in discussion. Each trigger should lead to a versioned update of the DAG or assumption register.\n\n\n\n\n\nDAG and assumption register\n\nVersioning the DAG and attaching an assumption register (recommended):\nWe recommend that the DAG is treated as a versioned working model: it will be refined as evidence accumulates, and each version is dated and archived.\nWe recommend that, for each edge, you note which evidence streams (non-human, human observational, human interventional, mechanistic) can inform it.\nWe recommend attaching an assumption register to the DAG. For each assumption, record: its type (structural — an asserted causal link; identifying — what makes a stream's estimate causal; indirectness — how closely the stream's population, intervention and outcome match the target question, including animal-to-human relevance; proxy — a measured outcome standing in for the target outcome); its status (agreed / contested / uncertain); the streams it concerns; and what evidence would challenge it.\n\n\n\nData extraction\n\nWe recommend also extracting information relevant to the assumption register — for example the timing of mediator measurement, population characteristics, and intervention dose or exposure descriptors — so that indirectness and proxy assumptions can be re-evaluated as evidence accumulates, and not only effect estimates.\n\n\n\nSummary of Evidence on Mediators (SEM)\n\nMaking the SEM DAG-compatible (recommended):\nWe recommend adding the following fields to the SEM for each candidate mediator: (i) which DAG edge(s) the evidence about it informs; (ii) up to three key assumptions (typed, and with status, as in the assumption register); and (iii) a link to the versioned DAG and assumption register.\n\n\n\nBridge to triangulation\n\nBridging to triangulation (recommended):\nWe recommend that, because this template produces a Summary of the Evidence on Mediators (SEM) rather than a Summary of Evidence (SET) table, teams preparing for triangulation derive a one-row-per-stream SET-style table from the DAG (using the fields described in the associations template) so that both template routes feed the triangulation meeting comparably.\n\n\n\nConsensus meeting\n\nReviewing the assumption register at the consensus meeting (recommended):\nWe recommend that the assumption register is a standing agenda item: assumptions challenged by the accumulated evidence are re-statused (agreed / contested / uncertain), and the DAG is revised if a revision trigger fires (evidence incompatible with an edge; a stream that maps onto no edge; an assumption challenged in discussion).\nWe recommend that conclusions are reported per DAG edge, naming the assumptions they traverse. Note that a small mechanistic study that measures a node on a DAG edge can have probative value out of proportion to its precision, because it bears on whether an association is causal rather than confounded."
+  },
+  {
+    "objectID": "protocol.html#link-to-the-evidence-summary",
+    "href": "protocol.html#link-to-the-evidence-summary",
+    "title": "Proposal 1 · Update protocol templates",
+    "section": "Link to the evidence summary",
+    "text": "Link to the evidence summary\nThe six existing SET columns stay unchanged. One added Key Assumptions column records the relevant relationships, typed assumptions and status, and links to the versioned DAG and register. Bias direction remains in the existing bias columns. See the worked SET and template.\nFor a review already underway, record when the framework was introduced and which evidence was already known. LSR8 illustrates this timing distinction.\n\n\nDetailed questions for follow-up\n\n\nWhich recommendations should become required fields, and which should remain optional?\nWho should maintain the register, and how should changes after protocol completion be documented?\n\n\nThe four questions on the Briefing page guide the meeting discussion."
+  },
+  {
+    "objectID": "protocol.html#proposed-wording-download",
+    "href": "protocol.html#proposed-wording-download",
+    "title": "Proposal 1 · Update protocol templates",
+    "section": "Proposed wording download",
+    "text": "Proposed wording download\nHighlighted wording only (.md)"
+  },
+  {
+    "objectID": "reporting.html",
+    "href": "reporting.html",
+    "title": "Proposal 3 · Reporting and the Summary of Evidence table",
+    "section": "",
+    "text": "Print this page\n\n Download complete PDF"
+  },
+  {
+    "objectID": "reporting.html#the-idea",
+    "href": "reporting.html#the-idea",
+    "title": "Proposal 3 · Reporting and the Summary of Evidence table",
+    "section": "The idea",
+    "text": "The idea\nThe Summary of Evidence table (SET) keeps its existing columns for results, bias, indirectness, and other considerations. The proposed addition is a Key Assumptions column containing short typed statements or IDs, their status, and links to the DAG and assumption register. The register holds the detailed reasoning."
+  },
+  {
+    "objectID": "reporting.html#worked-set",
+    "href": "reporting.html#worked-set",
+    "title": "Proposal 3 · Reporting and the Summary of Evidence table",
+    "section": "Worked example: TAAR1",
+    "text": "Worked example: TAAR1\nThe retrospective example shows why the measured animal outcome and the human symptom outcome need separate rows. Their relationship is the contested proxy assumption A1, shown as a dashed connector in the TAAR1 diagram.\nThe six existing SET headings are retained. Key Assumptions is the only added column, shaded to distinguish it from the original fields.\n\n\n\n\nSource of evidence\nSummary of the association\nBias due to study limitations\nBias due to reporting bias\nIndirectness: population/ species/ model\nOther considerations\nKey Assumptions\n\n\n\n\nHuman randomised trials\nPANSS total, 4–6 weeks; agonists versus placebo. SMD 0.15 (−0.05 to 0.34); 4 trials, 1,291 participants.\nAssessed low risk in the retrospective example.\nAssessed low risk in the retrospective example.\nAssessed low overall; population and measurement relevance remain contested.\nCOVID-era trial context may affect placebo responses.\nTreatment → human symptoms. A4: identifying, agreed; A5: indirectness, contested; A6: proxy, contested. DAG · Register.\n\n\nAnimal experiments\nLocomotor activity; agonists versus control. SMD 1.01 (0.74 to 1.27); 125 comparisons.\nModerate risk; expected to exaggerate the effect.\nModerate risk; possible publication bias may exaggerate the effect.\nModerate; proxy and exposure applicability uncertain.\nPrevention versus reversal of the induced phenotype remains unresolved.\nTreatment → animal outcome. A1: proxy, contested; A2: indirectness, contested; A7: structural, uncertain. DAG · Register.\n\n\n\n\nEstimates are followed by 95% confidence intervals.\nSMD means standardised mean difference: an effect expressed in standard-deviation units. The outcomes differ, so these estimates do not represent the same target quantity.\nProposed meeting wording: “The streams inform different outcomes. Their combined interpretation for human symptoms depends on the relevance of the animal proxy and the bias and applicability of each contribution.”\nTemplate interpretation and assumption IDs follow the local retrospective worked example. Reported estimates: human comparison in Smith et al. and animal comparison in the living systematic review. This table presents the evidence used for the retrospective example, not a current review update."
+  },
+  {
+    "objectID": "reporting.html#proposed-template",
+    "href": "reporting.html#proposed-template",
+    "title": "Proposal 3 · Reporting and the Summary of Evidence table",
+    "section": "Proposed template",
+    "text": "Proposed template\nKeep the six existing column headings from the uploaded associations template. Add Key Assumptions as the final column, shaded below. Use one row per evidence stream for the outcome under discussion.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource of evidence\nSummary of the association\nBias due to study limitations\nBias due to reporting bias\nIndirectness: population/ species/ model\nOther considerations\nKey Assumptions\n\n\n\n\nReview / evidence stream.\nOutcome, contrast, estimate and uncertainty, or qualitative summary.\nWithin-study risk of bias and expected direction.\nReporting-bias assessment and expected direction.\nRelevance to the target population, species, model, exposure, or outcome.\nRelevant issues not covered elsewhere.\nRelationship informed; up to three typed assumptions and status; links to the versioned DAG and register.\n\n\n\n\nBelow the table: state the meeting conclusion, the assumptions it depends on, and unresolved questions. The existing bias and indirectness columns retain their roles; the added column connects those judgements to the causal model."
+  },
+  {
+    "objectID": "reporting.html#reporting-the-meeting-outcome",
+    "href": "reporting.html#reporting-the-meeting-outcome",
+    "title": "Proposal 3 · Reporting and the Summary of Evidence table",
+    "section": "Reporting the meeting outcome",
+    "text": "Reporting the meeting outcome\nThe proposed wording makes the conditional interpretation explicit. For TAAR1, the key point is that a judgement about human symptoms cannot treat the animal proxy as the same measured outcome.\n\n\n\n\n\n\n\nSituation\nSuggested sentence structure\n\n\n\n\nContributions support the same interpretation\n“Evidence from [streams] is consistent with [interpretation], conditional on [assumptions].”\n\n\nAgreement may reflect shared bias\n“The findings agree, but shared bias through [mechanism] remains a possible explanation.”\n\n\nContributions diverge\n“The findings diverge for [relationship]; differences in [estimands, applicability, or bias] remain unresolved.”\n\n\n\n\n\nDetailed questions for follow-up\n\n\nDoes Key Assumptions provide enough information without crowding the existing table?\nWhich wording examples need design-specific guidance?\n\n\nThe four questions on the Briefing page guide the meeting discussion."
+  },
+  {
+    "objectID": "reporting.html#blank-template-and-wording",
+    "href": "reporting.html#blank-template-and-wording",
+    "title": "Proposal 3 · Reporting and the Summary of Evidence table",
+    "section": "Blank template and wording",
+    "text": "Blank template and wording\nDownload the blank SET Download draft wording"
+  },
+  {
+    "objectID": "lsr8.html",
+    "href": "lsr8.html",
+    "title": "LSR8 · Heat & Mental Health",
+    "section": "",
+    "text": "Print this page\n\n Download complete PDF"
+  },
+  {
+    "objectID": "lsr8.html#lsr8-dag",
+    "href": "lsr8.html#lsr8-dag",
+    "title": "LSR8 · Heat & Mental Health",
+    "section": "Working DAG: the human-only version",
+    "text": "Working DAG: the human-only version\nThis is the original human-only hypothesis diagram, figure 3, v1.1. Orange nodes represent exposures, green nodes mediator groups, and blue nodes outcomes. The arrows show hypotheses to examine, not established effects.\n\n\n\n\n\n\nFigure 1: LSR8 human-only hypothesis DAG v1.1. Solid arrows show hypothesised causal influences; the dotted green connections are proposed mediator relationships, and the grey dotted line is a correlation annotation."
+  },
+  {
+    "objectID": "lsr8.html#priority-adjudications",
+    "href": "lsr8.html#priority-adjudications",
+    "title": "LSR8 · Heat & Mental Health",
+    "section": "Priority adjudications",
+    "text": "Priority adjudications\n\n\n\nIssue\nWhy the decision matters\n\n\n\n\nMedication use and social support\nTheir proposed roles may differ with temporal ordering; treating them as confounders, or shared causes of exposure and outcome, by default could change the quantity estimated.\n\n\nCooling-to-heat applicability (A7)\nDetermines the contribution cooling RCTs can make to the target heat question.\n\n\nAmbient temperature versus extreme heat (A3)\nDetermines whether the two exposure constructs require distinct comparisons and interpretation.\n\n\nAnimal proxy and duration eligibility (A1–A2)\nDetermines what animal evidence is eligible and how it could inform human outcomes.\n\n\nDepression and suicidality (A9)\nRequires clarity on whether a line represents a causal hypothesis or a descriptive association. A correlation annotation is not a causal DAG edge."
+  },
+  {
+    "objectID": "lsr8.html#applying-the-three-proposals",
+    "href": "lsr8.html#applying-the-three-proposals",
+    "title": "LSR8 · Heat & Mental Health",
+    "section": "Applying the three proposals",
+    "text": "Applying the three proposals\nAs the Summary of Evidence tables (SETs) become available, use them to examine what each stream informs and which assumptions require revision.\n\nEstablish the baseline: record when the framework entered use, the available evidence, and which choices restate or extend the protocol.\nUse the worksheet: record the interpretation, disputed assumptions, revisions, and actions through the four steps.\nCarry the judgement forward: link the reported conclusion to the diagram, register, and evidence-summary versions used.\n\n\n\nSupporting DAGs, selected assumptions, and evidence contributions\n\nThe five other original images support more detailed discussion. They are retained here as reference material.\n\n\n\n\n\n\nFigure 2: Scoping diagram v1.1: candidate confounders, two heat exposures, and four outcomes. Proposed covariate roles need adjudication.\n\n\n\n\n\n\n\n\n\nFigure 3: Hypothesis diagram with animal proxy v1.1. Pink dashed connections represent proxy assumptions A1 rather than physical causal effects of animal outcomes on human outcomes.\n\n\n\n\n\n\n\n\n\nFigure 4: Biological mediator detail v1.1. Candidate variable roles, including medication use, require adjudication.\n\n\n\n\n\n\n\n\n\nFigure 5: Psychological mediator detail v1.1. Proposed links from the other mediator groups remain open for discussion.\n\n\n\n\n\n\n\n\n\nFigure 6: Social-behavioural mediator detail v1.1. The source distinguishes use of cooling from access to cooling infrastructure.\n\n\n\n\nAssumptions illustrated in the main diagram\n\n\n\n\n\n\n\n\n\nSource ID\nWhat to look at in the diagram\nAssumption or choice to discuss\nSource status\n\n\n\n\nA3\nTwo separate orange exposure nodes.\nAmbient temperature and extreme heat should be treated as distinct exposure constructs.\nProposed.\n\n\nA8\nDotted green links into psychological mediators.\nBiological and social-behavioural pathways may influence psychological pathways.\nProposed; relationships need adjudication.\n\n\nA9\nGrey dotted line between depression and suicidality.\nRepresent the possible association without asserting a causal arrow.\nProposed; the line is a correlation annotation.\n\n\n\n\n\nPlanned evidence contributions\n\n\n\n\n\n\n\n\nPlanned contribution in the local materials\nProposed role\nIssue to resolve in the ongoing review\n\n\n\n\nHuman observational studies\nHeat–outcome associations; causal interpretation under stated identifying assumptions\nConfounder roles, timing, exposure definition, and residual confounding.\n\n\nQuasi-experimental studies\nDesign-specific contrasts related to heat exposure\nWhat the design identifies and whether its quantity matches the target question.\n\n\nCooling / heat-acclimatisation RCTs\nEvidence about thermal interventions\nWhether and how the intervention informs the heat-harm question; cooling without high heat exposure is not automatically its inverse.\n\n\nQualitative studies\nExperiences, context, and candidate pathways\nHow these inform the proposed structure without being treated as effect estimates.\n\n\nAnimal experiments\nExperimental heat effects on measured animal outcomes\nProxy validity, eligibility, and availability. The source package records no eligible studies in iteration 1; confirm the current position.\n\n\n\n\n\n\nDetailed questions for follow-up — evaluation\n\nThese are candidate observations for a pilot, not additional questions for the initial meeting.\n\nWhich assumptions or disagreements become more explicit, and do participants find that useful?\nDoes the contribution map change how a stream is interpreted or which conclusion is considered warranted?\nHow much preparation and meeting time is needed, and where is information duplicated?\nCan the record be maintained at the next update, with clear ownership and traceable revisions?\nWhat feedback do methodological, statistical, clinical, and lived-experience contributors give on its clarity?\n\n\n\n\nProject materials and implementation details\n\nThe project materials include the completed protocol, draft DAG package v1.1, an assumption register, a provisional covariate-adjudication table, and a prefilled worksheet. The protocol records registration on 30 March 2026 (PROSPERO 1325620).\nEvidence availability in those records is a dated snapshot. Current SET availability, the adoption date, meeting plans, and register ownership need confirmation with the review team. No effect estimates or meeting judgements are entered here.\nThe protocol makes convening a triangulation meeting conditional on sufficient evidence from at least two sources for an outcome. The register and evidence-gap record can be prepared before that condition is met.\n\n\nThe figures and working assumptions follow the draft LSR8 DAG package v1.1. Application status and provenance. The Briefing page holds the meeting questions."
+  }
+]

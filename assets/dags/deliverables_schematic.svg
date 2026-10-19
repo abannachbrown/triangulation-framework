@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title description">
+  <title id="title">Three proposed deliverables and the reasoning they support</title>
+  <desc id="description">The upper band shows the reasoning: a target causal question, evidence streams, explicit assumptions, and a conditional conclusion. The lower band shows the three proposed deliverables: protocol templates, a meeting worksheet, and reporting with a Summary of Evidence table. Dotted connectors show which part of the reasoning each deliverable supports.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#344c59"/></marker>
+  </defs>
+  <rect width="1000" height="440" fill="#ffffff"/>
+
+  <!-- Band labels -->
+  <text x="20" y="32" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#6b7a86">The reasoning it supports</text>
+  <text x="30" y="205" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#6b7a86">Three proposed deliverables</text>
+
+  <!-- Dotted connectors: deliverables to the reasoning they support -->
+  <g stroke="#9aa7b0" stroke-width="2" stroke-dasharray="4 5" fill="none">
+    <path d="M 175 220 L 115 124"/>
+    <path d="M 500 220 L 500 124"/>
+    <path d="M 825 220 L 885 124"/>
+  </g>
+
+  <!-- Top band: reasoning flow -->
+  <g fill="none" stroke="#344c59" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M 210 85 L 246 85"/>
+    <path d="M 480 85 L 516 85"/>
+    <path d="M 750 85 L 786 85"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#233344">
+    <rect x="20" y="50" width="190" height="70" rx="8" fill="#f4f6f8" stroke="#8ba1ad" stroke-width="2"/>
+    <text x="115" y="80" font-size="17">Target causal</text>
+    <text x="115" y="102" font-size="17">question</text>
+    <rect x="250" y="50" width="230" height="70" rx="8" fill="#f4f6f8" stroke="#8ba1ad" stroke-width="2"/>
+    <text x="365" y="80" font-size="17">Evidence streams</text>
+    <text x="365" y="102" font-size="15">human &#183; animal &#183; other</text>
+    <rect x="520" y="50" width="230" height="70" rx="8" fill="#f4f6f8" stroke="#8ba1ad" stroke-width="2"/>
+    <text x="635" y="80" font-size="17">Explicit assumptions</text>
+    <text x="635" y="102" font-size="15">DAG &#183; register &#183; bias</text>
+    <rect x="790" y="50" width="190" height="70" rx="8" fill="#f4f6f8" stroke="#8ba1ad" stroke-width="2"/>
+    <text x="885" y="80" font-size="17">Conditional</text>
+    <text x="885" y="102" font-size="17">conclusion</text>
+  </g>
+
+  <!-- Bottom band: three deliverables -->
+  <g fill="none" stroke="#344c59" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M 320 295 L 351 295"/>
+    <path d="M 645 295 L 676 295"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#233344">
+    <rect x="30" y="220" width="290" height="150" rx="10" fill="#e4eef8" stroke="#36668e" stroke-width="2.5"/>
+    <circle cx="70" cy="260" r="18" fill="#36668e"/>
+    <text x="70" y="267" font-size="19" fill="#ffffff" font-weight="bold">1</text>
+    <text x="175" y="305" font-size="21" font-weight="600">Protocol templates</text>
+    <text x="175" y="332" font-size="15">DAG and assumption register</text>
+    <text x="175" y="352" font-size="15">specified before synthesis</text>
+
+    <rect x="355" y="220" width="290" height="150" rx="10" fill="#e4f0e9" stroke="#17645e" stroke-width="2.5"/>
+    <circle cx="395" cy="260" r="18" fill="#17645e"/>
+    <text x="395" y="267" font-size="19" fill="#ffffff" font-weight="bold">2</text>
+    <text x="500" y="305" font-size="21" font-weight="600">Meeting worksheet</text>
+    <text x="500" y="332" font-size="15">Structured record of deliberation</text>
+    <text x="500" y="352" font-size="15">and revisions</text>
+
+    <rect x="680" y="220" width="290" height="150" rx="10" fill="#fff1d6" stroke="#b27714" stroke-width="2.5"/>
+    <circle cx="720" cy="260" r="18" fill="#b27714"/>
+    <text x="720" y="267" font-size="19" fill="#ffffff" font-weight="bold">3</text>
+    <text x="825" y="305" font-size="21" font-weight="600">Reporting and SET</text>
+    <text x="825" y="332" font-size="15">Key Assumptions column and</text>
+    <text x="825" y="352" font-size="15">conditional wording</text>
+  </g>
+</svg>

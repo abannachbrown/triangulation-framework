@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Proposal 1 · Update protocol templates – Causal assumptions in triangulation</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-26d9cc88ab9604001aabd73cb1ea1d8f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Causal assumptions in triangulation</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Briefing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./concepts.html"> 
+<span class="menu-text">Concepts &amp; glossary</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-three-proposals" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Three proposals</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-three-proposals">    
+        <li>
+    <a class="dropdown-item" href="./protocol.html">
+ <span class="dropdown-text">1 · Protocol templates</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./worksheet.html">
+ <span class="dropdown-text">2 · Meeting worksheet</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./reporting.html">
+ <span class="dropdown-text">3 · Reporting and evidence summary</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-applications" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Applications</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-applications">    
+        <li>
+    <a class="dropdown-item" href="./taar1.html">
+ <span class="dropdown-text">TAAR1 · Retrospective</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lsr8.html">
+ <span class="dropdown-text">LSR8 · Ongoing</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./sources.html"> 
+<span class="menu-text">About &amp; references</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#why-update-the-templates" id="toc-why-update-the-templates" class="nav-link active" data-scroll-target="#why-update-the-templates">Why update the templates?</a></li>
+  <li><a href="#what-changes-in-each-template" id="toc-what-changes-in-each-template" class="nav-link" data-scroll-target="#what-changes-in-each-template">What changes in each template?</a></li>
+  <li><a href="#link-to-the-evidence-summary" id="toc-link-to-the-evidence-summary" class="nav-link" data-scroll-target="#link-to-the-evidence-summary">Link to the evidence summary</a></li>
+  <li><a href="#proposed-wording-download" id="toc-proposed-wording-download" class="nav-link" data-scroll-target="#proposed-wording-download">Proposed wording download</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Proposal 1 · Update protocol templates</h1>
+<p class="subtitle lead">What changes, why it matters, and wording for template owners</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+<nav class="document-actions" aria-label="Print and download">
+<button type="button" class="btn btn-outline-primary" data-print-page="">
+<i class="bi bi-printer" aria-hidden="true"></i> Print this page
+</button>
+<a class="btn btn-outline-primary" href="downloads/causal-assumptions-complete.pdf" download=""><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> Download complete PDF</a>
+</nav>
+<section id="why-update-the-templates" class="level2">
+<h2 class="anchored" data-anchor-id="why-update-the-templates">Why update the templates?</h2>
+<p>The associations workflow produces a <strong>Summary of Evidence table (SET)</strong>. The hypothesis-generating workflow already recommends a DAG and produces a <strong>Summary of Evidence on Mediators (SEM)</strong>. The amendments connect the causal diagram, assumption register, and meeting record across both routes.</p>
+<p>The <a href="./taar1.html#taar1-dag">retrospective TAAR1 example</a> motivates the proposed changes:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Gap illustrated by the retrospective example</th>
+<th>What the amendment addresses</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Association and mechanism questions can occur in the same review.</td>
+<td>Declare the review mode and the diagram’s purpose.</td>
+</tr>
+<tr class="even">
+<td>Pathways may be reconstructed after the findings.</td>
+<td>Record the proposed structure and challenge conditions before synthesis.</td>
+</tr>
+<tr class="odd">
+<td>The two template routes produce different evidence summaries.</td>
+<td>Link both routes to the DAG and assumption register.</td>
+</tr>
+<tr class="even">
+<td>Meeting reasoning may remain implicit.</td>
+<td>Preserve the assumptions, judgements, and revisions in a reusable record.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="what-changes-in-each-template" class="level2">
+<h2 class="anchored" data-anchor-id="what-changes-in-each-template">What changes in each template?</h2>
+<p>The uploaded drafts frame all additions as recommendations. These practical prompts are a main methods contribution for review.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Template</th>
+<th>Where the additions appear</th>
+<th>Practical change proposed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Associations v3.2 draft</strong></td>
+<td>Research questions; reporting bias; evidence summary; triangulation meeting.</td>
+<td>Declare the review mode, introduce a versioned DAG and register, record bias direction, and use the assumptions in meeting conclusions.</td>
+</tr>
+<tr class="even">
+<td><strong>Hypothesis-generating v2.2 draft</strong></td>
+<td>DAG guidance; data extraction; SEM; bridge to triangulation; consensus meeting.</td>
+<td>Version the existing DAG, extract assumption-relevant information, connect the SEM to the register, and prepare a SET-style input for triangulation.</td>
+</tr>
+</tbody>
+</table>
+<details>
+<summary>
+Verbatim yellow-highlighted extracts — for template owners
+</summary>
+<p>The 25 highlighted paragraphs are reproduced without rewriting. The original Word drafts remain internal; a download of the proposed wording is provided below.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Associations v3.2 draft</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Hypothesis-generating v2.2 draft</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="research-questions" class="level4">
+<h4 class="anchored" data-anchor-id="research-questions">Research questions</h4>
+<div class="proposed-amendment">
+<p><mark>Review mode and causal structure (recommended):</mark></p>
+<p><mark>We recommend that you state the primary mode of the review: evaluating associations, hypothesis-generating, or a mixture of both. If any research question concerns mechanisms of action or hypothesised causal pathways, we recommend declaring this explicitly as a secondary (hypothesis-generating) mode.</mark></p>
+<p><mark>We recommend that, in that case, you draw a scoping directed acyclic graph (DAG) at protocol stage: the variables of interest, the hypothesised directional links between them (including candidate mediators), and the outcome(s). The DAG is a working hypothesis, not a finding, and should be versioned (dated and archived).</mark></p>
+<p><mark>We recommend that research questions about causal pathways are then answered edge by edge against the pre-specified DAG (i.e. “is the evidence consistent with this hypothesised link?”), rather than by reconstructing pathways after the findings.</mark></p>
+</div>
+</section>
+<section id="reporting-bias" class="level4">
+<h4 class="anchored" data-anchor-id="reporting-bias">Reporting bias</h4>
+<div class="proposed-amendment">
+<p><mark>We recommend that, for each major bias, the likely direction of the resulting error is recorded relative to the relevant DAG edge (towards null, away from null, or unpredictable), in addition to the risk-of-bias judgement. Where quantitative bias adjustment is planned, the bias type can also be recorded: offset (additive) bias shifts every estimate by a roughly fixed amount and can create an effect where the true effect is zero, whereas scaling (proportional) bias inflates or shrinks estimates in proportion to their size and cannot.</mark></p>
+</div>
+</section>
+<section id="summary-of-the-evidence" class="level4">
+<h4 class="anchored" data-anchor-id="summary-of-the-evidence">Summary of the evidence</h4>
+<div class="proposed-amendment">
+<p><mark>Making the Summary of Evidence (SET) table DAG-compatible (recommended):</mark></p>
+<p><mark>We recommend adding the following fields to each row of the Summary of Evidence (SET) table: (i) which DAG edge(s) the evidence stream informs; (ii) up to three key assumptions on which the estimate depends, each typed as structural, identifying, indirectness or proxy, with status (agreed / contested / uncertain); (iii) the expected direction of each major bias relative to the relevant DAG edge (towards null / away from null / unpredictable); and (iv) a link to the versioned DAG and assumption register.</mark></p>
+<p><mark>We recommend that the assumption register is seeded at protocol stage and versioned. Each entry records the assumption, its type, the evidence streams it concerns, its status, and what evidence would challenge it.</mark></p>
+</div>
+</section>
+<section id="triangulation-meeting" class="level4">
+<h4 class="anchored" data-anchor-id="triangulation-meeting">Triangulation meeting</h4>
+<div class="proposed-amendment">
+<p><mark>Using the DAG and assumption register at the triangulation meeting (recommended):</mark></p>
+<p><mark>We recommend that, before the meeting, each SET table row is mapped onto the DAG edge(s) it informs. Streams that inform different edges do not directly agree or disagree; any statement about agreement between them traverses an assumption (e.g. a proxy assumption) that should be named.</mark></p>
+<p><mark>We recommend that conclusions are reported per DAG edge, with the traversed assumptions stated, rather than as a single global judgement.</mark></p>
+<p><mark>We recommend that orthogonality is judged from the directions of the streams' major biases: streams whose biases favour findings in opposite directions (one towards null, one away from null) make agreement between them strongly informative. Representing each bias as a factor in the DAG makes this a checkable claim (the biases should share no common cause).</mark></p>
+<p><mark>We recommend applying three revision triggers during the meeting: (a) evidence incompatible with a DAG edge; (b) an evidence stream that maps onto no edge; (c) an assumption challenged in discussion. Each trigger should lead to a versioned update of the DAG or assumption register.</mark></p>
+</div>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="dag-and-assumption-register" class="level4">
+<h4 class="anchored" data-anchor-id="dag-and-assumption-register">DAG and assumption register</h4>
+<div class="proposed-amendment">
+<p><mark>Versioning the DAG and attaching an assumption register (recommended):</mark></p>
+<p><mark>We recommend that the DAG is treated as a versioned working model: it will be refined as evidence accumulates, and each version is dated and archived.</mark></p>
+<p><mark>We recommend that, for each edge, you note which evidence streams (non-human, human observational, human interventional, mechanistic) can inform it.</mark></p>
+<p><mark>We recommend attaching an assumption register to the DAG. For each assumption, record: its type (structural — an asserted causal link; identifying — what makes a stream's estimate causal; indirectness — how closely the stream's population, intervention and outcome match the target question, including animal-to-human relevance; proxy — a measured outcome standing in for the target outcome); its status (agreed / contested / uncertain); the streams it concerns; and what evidence would challenge it.</mark></p>
+</div>
+</section>
+<section id="data-extraction" class="level4">
+<h4 class="anchored" data-anchor-id="data-extraction">Data extraction</h4>
+<div class="proposed-amendment">
+<p><mark>We recommend also extracting information relevant to the assumption register — for example the timing of mediator measurement, population characteristics, and intervention dose or exposure descriptors — so that indirectness and proxy assumptions can be re-evaluated as evidence accumulates, and not only effect estimates.</mark></p>
+</div>
+</section>
+<section id="summary-of-evidence-on-mediators-sem" class="level4">
+<h4 class="anchored" data-anchor-id="summary-of-evidence-on-mediators-sem">Summary of Evidence on Mediators (SEM)</h4>
+<div class="proposed-amendment">
+<p><mark>Making the SEM DAG-compatible (recommended):</mark></p>
+<p><mark>We recommend adding the following fields to the SEM for each candidate mediator: (i) which DAG edge(s) the evidence about it informs; (ii) up to three key assumptions (typed, and with status, as in the assumption register); and (iii) a link to the versioned DAG and assumption register.</mark></p>
+</div>
+</section>
+<section id="bridge-to-triangulation" class="level4">
+<h4 class="anchored" data-anchor-id="bridge-to-triangulation">Bridge to triangulation</h4>
+<div class="proposed-amendment">
+<p><mark>Bridging to triangulation (recommended):</mark></p>
+<p><mark>We recommend that, because this template produces a Summary of the Evidence on Mediators (SEM) rather than a Summary of Evidence (SET) table, teams preparing for triangulation derive a one-row-per-stream SET-style table from the DAG (using the fields described in the associations template) so that both template routes feed the triangulation meeting comparably.</mark></p>
+</div>
+</section>
+<section id="consensus-meeting" class="level4">
+<h4 class="anchored" data-anchor-id="consensus-meeting">Consensus meeting</h4>
+<div class="proposed-amendment">
+<p><mark>Reviewing the assumption register at the consensus meeting (recommended):</mark></p>
+<p><mark>We recommend that the assumption register is a standing agenda item: assumptions challenged by the accumulated evidence are re-statused (agreed / contested / uncertain), and the DAG is revised if a revision trigger fires (evidence incompatible with an edge; a stream that maps onto no edge; an assumption challenged in discussion).</mark></p>
+<p><mark>We recommend that conclusions are reported per DAG edge, naming the assumptions they traverse. Note that a small mechanistic study that measures a node on a DAG edge can have probative value out of proportion to its precision, because it bears on whether an association is causal rather than confounded.</mark></p>
+</div>
+</section>
+</div>
+</div>
+</div>
+</details>
+</section>
+<section id="link-to-the-evidence-summary" class="level2">
+<h2 class="anchored" data-anchor-id="link-to-the-evidence-summary">Link to the evidence summary</h2>
+<p>The <strong>six existing SET columns stay unchanged</strong>. One added <strong>Key Assumptions</strong> column records the relevant relationships, typed assumptions and status, and links to the versioned DAG and register. Bias direction remains in the existing bias columns. <a href="./reporting.html#worked-set">See the worked SET and template</a>.</p>
+<p>For a review already underway, record when the framework was introduced and which evidence was already known. <a href="./lsr8.html">LSR8 illustrates this timing distinction</a>.</p>
+<details>
+<summary>
+Detailed questions for follow-up
+</summary>
+<ul>
+<li>Which recommendations should become required fields, and which should remain optional?</li>
+<li>Who should maintain the register, and how should changes after protocol completion be documented?</li>
+</ul>
+</details>
+<p>The <a href="./index.html#feedback-sought">four questions on the Briefing page</a> guide the meeting discussion.</p>
+</section>
+<section id="proposed-wording-download" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-wording-download">Proposed wording download</h2>
+<p><a href="downloads/protocol-amendments.md" class="btn btn-outline-primary" download="protocol-amendments.md">Highlighted wording only (.md)</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="assets/print.js" defer=""></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/abannachbrown\.github\.io\/triangulation-framework\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Methodological discussion draft · v0.1 · 19 October 2026</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>For conceptual and practical feedback</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

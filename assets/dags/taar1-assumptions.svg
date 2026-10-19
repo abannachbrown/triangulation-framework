@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title description">
+  <title id="title">TAAR1: hypothesised pathways and selected assumptions</title>
+  <desc id="description">TAAR1 agonism has hypothesised paths to human symptoms directly and through dopamine regulation, and a separate path to animal locomotor activity. A3 concerns the uncertain mechanism. A1 is a contested proxy assumption connecting interpretation of the animal outcome to human symptoms. The dashed proxy connector is an annotation, not a causal arrow.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#344c59"/></marker>
+  </defs>
+  <rect width="1000" height="460" fill="#ffffff"/>
+  <g fill="none" stroke="#344c59" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M 225 164 C 265 164 292 65 360 65"/>
+    <path d="M 635 65 C 698 65 700 164 750 164"/>
+    <path d="M 225 192 L 750 192"/>
+    <path d="M 225 218 C 285 218 292 365 360 365"/>
+  </g>
+  <path d="M 635 365 C 838 365 860 321 860 232" fill="none" stroke="#905679" stroke-width="3" stroke-dasharray="9 7"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#233344">
+    <rect x="20" y="150" width="205" height="82" rx="8" fill="#fff1d6" stroke="#b27714" stroke-width="2"/>
+    <text x="122" y="185" font-size="22">TAAR1 agonism</text>
+    <text x="122" y="214" font-size="17">intervention</text>
+    <rect x="360" y="20" width="275" height="90" rx="8" fill="#e4f0e9" stroke="#17645e" stroke-width="2"/>
+    <text x="497" y="54" font-size="21">Dopamine regulation</text>
+    <text x="497" y="84" font-size="18">A3 · mechanism uncertain</text>
+    <rect x="750" y="150" width="230" height="82" rx="8" fill="#e4eef8" stroke="#36668e" stroke-width="2"/>
+    <text x="865" y="185" font-size="22">Human symptoms</text>
+    <text x="865" y="214" font-size="17">PANSS total</text>
+    <rect x="360" y="320" width="275" height="90" rx="8" fill="#f8eaf2" stroke="#905679" stroke-width="2"/>
+    <text x="497" y="356" font-size="21">Animal locomotor activity</text>
+    <text x="497" y="386" font-size="17">measured proxy outcome</text>
+    <rect x="388" y="167" width="219" height="24" fill="#ffffff"/>
+    <text x="497" y="184" font-size="17">hypothesised direct path</text>
+    <text x="790" y="399" font-size="18" fill="#774162">A1 · proxy relevance</text>
+    <text x="790" y="426" font-size="17" fill="#774162">contested</text>
+  </g>
+</svg>
