@@ -158,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
   <li><a href="#four-steps" id="toc-four-steps" class="nav-link" data-scroll-target="#four-steps">Four steps</a></li>
   <li><a href="#proposed-worksheet-fields" id="toc-proposed-worksheet-fields" class="nav-link" data-scroll-target="#proposed-worksheet-fields">Proposed worksheet fields</a></li>
+  <li><a href="#causal-alignment-assessment-within-the-four-steps" id="toc-causal-alignment-assessment-within-the-four-steps" class="nav-link" data-scroll-target="#causal-alignment-assessment-within-the-four-steps">Causal alignment assessment within the four steps</a></li>
   <li><a href="#blank-templates" id="toc-blank-templates" class="nav-link" data-scroll-target="#blank-templates">Blank templates</a></li>
   </ul>
 </nav>
@@ -215,15 +216,15 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><strong>2. Compare</strong></td>
-<td>Whether the questions, populations, measures, and timescales are comparable; where findings agree or diverge.</td>
+<td>Whether each stream addresses the target causal question, a related question, or a different link (causal alignment assessment); which integration level that supports — A common effect, B related but non-identical, C different links; where findings agree, diverge, or complement.</td>
 </tr>
 <tr class="odd">
 <td><strong>3. Examine bias</strong></td>
-<td>Shared and differing bias mechanisms, their expected directions, and the implications for interpretation.</td>
+<td>Shared and differing bias mechanisms, their expected directions, magnitudes, and uncertainty, and the implications for interpretation.</td>
 </tr>
 <tr class="even">
 <td><strong>4. Revise and record</strong></td>
-<td>The conclusion and its conditions; changes to assumptions or the diagram; unresolved questions and actions.</td>
+<td>The conclusion and its conditions; edge statuses for revised relationships (supported / unsupported / uncertain / not adequately investigated); changes to assumptions or the diagram; unresolved questions and actions.</td>
 </tr>
 </tbody>
 </table>
@@ -243,11 +244,162 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Target question; date and participants; diagram, register, and SET versions; evidence already known when the framework was adopted.</td>
-<td>Conclusion and conditions; revised versions; actions, owners, and review dates.</td>
+<td>Target question and <strong>target specification version</strong>; date and participants; diagram, register, and SET versions; evidence already known when the framework was adopted.</td>
+<td>Conclusion and conditions; integration level chosen and its rationale; edge statuses for revised relationships; revised versions; actions, owners, and review dates.</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="causal-alignment-assessment-within-the-four-steps" class="level2">
+<h2 class="anchored" data-anchor-id="causal-alignment-assessment-within-the-four-steps">Causal alignment assessment within the four steps</h2>
+<p>Companion guidance (Component B) supplies the questions and records <em>within</em> each step — no new procedure is needed. Each evidence stream gets a <strong>stream-level estimand</strong> (the quantity it can estimate in its own terms) prepared before the meeting, so Step 2 compares specified quantities rather than a study with an underspecified ambition.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Component B support</th>
+<th>Artefact produced</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Preparation</strong></td>
+<td>Retrieve the versioned target specification; draft stream-level estimands.</td>
+<td>Draft stream-level estimands in the meeting pack</td>
+</tr>
+<tr class="even">
+<td><strong>1. Map</strong></td>
+<td>Place each contribution on the edge, node, proxy connection or assumption it informs — not automatically a single arrow; classify contribution type.</td>
+<td>Contribution map with register IDs</td>
+</tr>
+<tr class="odd">
+<td><strong>2. Compare</strong></td>
+<td>Alignment discussion: did streams estimate the same <em>quantity</em>? Resolve the integration level (A common effect / B related but non-identical / C different links). Distinct from the SET’s indirectness column (applicability).</td>
+<td>Below-SET narrative record per stream (draft)</td>
+</tr>
+<tr class="even">
+<td><strong>3. Examine bias</strong></td>
+<td>Identification, indirectness, transportability; then the orthogonality check — shared vs differing bias mechanisms relative to each stream’s own estimand.</td>
+<td>Orthogonality judgement; bias notes keyed to register IDs</td>
+</tr>
+<tr class="odd">
+<td><strong>4. Revise and record</strong></td>
+<td>Conditional interpretation; route each change as alignment re-interpretation, DAG/register update, or formal target amendment.</td>
+<td>Final narrative records; versioned updates</td>
+</tr>
+</tbody>
+</table>
+<p>Steps 1 and 2 <strong>iterate</strong> rather than sequence strictly: alignment assessment comes before or alongside mapping, never after cross-stream agreement is declared.</p>
+<details>
+<summary>
+Alignment questions, descriptors, narrative record, and orthogonality check
+</summary>
+<section id="opening-alignment-questions-b1a" class="level3">
+<h3 class="anchored" data-anchor-id="opening-alignment-questions-b1a">Opening alignment questions (B1a)</h3>
+<ul>
+<li>What exactly was the review target, and which version of that specification is being used?</li>
+<li>What did the included studies aim to estimate, and can that be inferred confidently from the reports?</li>
+<li>What does the synthesis summarise: a common effect, a distribution of study effects, an association, a qualitative pattern, or several distinct results?</li>
+<li>What quantity did <em>this stream</em> target in its own terms (the stream-level estimand)? Alignment is judged between two specified quantities, not between a study and an underspecified ambition.</li>
+<li>Does the evidence provide an estimate of the target or a contribution that must be interpreted through another assumption or causal pathway?</li>
+<li>Could an apparent agreement or discrepancy arise because <strong>different quantities</strong> were estimated rather than because studies yielded conflicting evidence?</li>
+</ul>
+<p><em>When the review has no numerical target estimand (hypothesis-generating mode):</em> the alignment question shifts from <em>does this quantity match the target quantity?</em> to <em>does this evidence inform the proposed relationship, its measurement, or the assumptions connecting its components?</em> The SEM’s rows are assessed against pathway components rather than a pooled effect.</p>
+</section>
+<section id="dimension-specific-signalling-questions-b1b" class="level3">
+<h3 class="anchored" data-anchor-id="dimension-specific-signalling-questions-b1b">Dimension-specific signalling questions (B1b)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimension</th>
+<th>Signalling questions (examples)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Population / setting</strong></td>
+<td>Who is represented by the study and synthesis? Who is in the target? Are age, diagnosis, species, severity, context or effect modifiers different?</td>
+</tr>
+<tr class="even">
+<td><strong>Intervention / exposure / comparator</strong></td>
+<td>Are dose, timing, treatment versions, assignment versus receipt and comparison conditions the same? Is a hypothetical intervention well-defined?</td>
+</tr>
+<tr class="odd">
+<td><strong>Outcome / construct / measurement</strong></td>
+<td>Is the outcome the target construct, a different manifestation or a proxy? Could changes in measurement alter direction or meaning?</td>
+</tr>
+<tr class="even">
+<td><strong>Timing</strong></td>
+<td>Do exposure period, outcome follow-up, mediator order and treatment duration match?</td>
+</tr>
+<tr class="odd">
+<td><strong>Quantity / causal effect definition</strong></td>
+<td>Is the target descriptive, associative or causal? Total effect, assignment effect, hypothetical adherence effect, direct or mediated effect?</td>
+</tr>
+<tr class="even">
+<td><strong>Synthesis target / summary measure</strong></td>
+<td>What does the pooled estimate or SWiM summary target? Are measures transformable? Does pooling over studies yield the target-population quantity?</td>
+</tr>
+<tr class="odd">
+<td><strong>Intercurrent events (where relevant)</strong></td>
+<td>How were discontinuation, switching, rescue treatment or competing events handled? Is this compatible with the target?</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="descriptive-labels-b1c-provisional-language-only" class="level3">
+<h3 class="anchored" data-anchor-id="descriptive-labels-b1c-provisional-language-only">Descriptive labels (B1c) — provisional language only</h3>
+<ul>
+<li><strong>Closely aligned:</strong> the stream addresses a compatible target quantity, notwithstanding methodological validity and applicability questions.</li>
+<li><strong>Partly aligned:</strong> substantial correspondence, but a consequential difference or qualification remains.</li>
+<li><strong>Different but relevant:</strong> the stream addresses a distinct quantity, yet can inform the target through a specified mechanism, proxy, context or assumption.</li>
+<li><strong>Connection unclear:</strong> reporting or conceptual uncertainty prevents a defensible judgement.</li>
+<li><strong>No established link to this target:</strong> currently no justified inferential connection; this does not mean the evidence has no other scientific value.</li>
+</ul>
+<p>These are descriptors, not categories with validated thresholds, and should not be forced into a global rating.</p>
+</section>
+<section id="from-alignment-judgements-to-the-integration-level" class="level3">
+<h3 class="anchored" data-anchor-id="from-alignment-judgements-to-the-integration-level">From alignment judgements to the integration level</h3>
+<p>The alignment judgements resolve into the <strong>integration level</strong> for each pair or set of streams, which determines how they may be brought together:</p>
+<ul>
+<li><strong>A — Sufficiently common causal effect:</strong> streams estimate effects defensibly related to one target estimand → quantitative integration may be possible (transformations, transportability assumptions, bias adjustment).</li>
+<li><strong>B — Related but non-identical effects or constructs:</strong> streams address closely related questions but cannot defensibly be represented as observations of one target effect → retain within-stream quantitative synthesis; compare across streams without pooling.</li>
+<li><strong>C — Different links in a broader causal explanation:</strong> streams inform different edges or propositions in the causal model → complementary, pathway-/question-level triangulation; “agreement” is not the operative concept.</li>
+</ul>
+<p>The level is a recorded judgement with its rationale, not a score; borderline or mixed cases (for example, closely aligned on intervention, different on outcome) should be described per dimension as above.</p>
+</section>
+<section id="blank-narrative-record-below-the-set-table-one-per-stream-row" class="level3">
+<h3 class="anchored" data-anchor-id="blank-narrative-record-below-the-set-table-one-per-stream-row">Blank narrative record (below the SET table, one per stream row)</h3>
+<blockquote class="blockquote">
+<p><strong>SET row and target reference:</strong> [review, outcome, target version, synthesis version].</p>
+<p><strong>Stream-level estimand:</strong> [what this stream targeted in its own terms].</p>
+<p><strong>What is being summarised?</strong> [one to three sentences on study-level variation and the synthesis target].</p>
+<p><strong>Main points of alignment or difference:</strong> [key population, contrast, outcome, time and effect-definition considerations].</p>
+<p><strong>Why this evidence contributes:</strong> [direct/related/mechanistic/contextual/assumption-relevant contribution].</p>
+<p><strong>What must be assumed to connect it to the target?</strong> [DAG/register references].</p>
+<p><strong>Unresolved questions for triangulation:</strong> [reporting gaps, validity, transportability, bias and possible challenges].</p>
+</blockquote>
+</section>
+<section id="orthogonality-check-step-3-support" class="level3">
+<h3 class="anchored" data-anchor-id="orthogonality-check-step-3-support">Orthogonality check (Step 3 support)</h3>
+<ul>
+<li>List the key bias mechanisms for each stream (selection, measurement, reporting, confounding, analysis) relative to each stream’s <em>own</em> estimand.</li>
+<li>Identify mechanisms that could operate in <strong>both</strong> streams — shared publication practices, shared measurement instruments, shared populations, or animal-to-human assumptions that transmit bias in the same direction.</li>
+<li>Ask: if the shared mechanism operated, would it produce the observed pattern of agreement or disagreement?</li>
+<li>Record whether the differing-bias premise of the triangulation is <em>justified for this pair of streams</em>, or merely asserted by design labels.</li>
+</ul>
+<p>Agreement between streams with plausibly shared bias should be reported as conditional in the same way as agreement resting on a contested proxy assumption.</p>
+</section></details>
+<p><a href="downloads/estimand-alignment.md" class="btn btn-outline-primary" download="estimand-alignment.md">Download the full estimand alignment guidance (.md)</a></p>
 <p>The Word worksheet provides blank tables and response spaces for these fields and the four steps. It can be completed before and during a meeting, then kept with the review records.</p>
 <details>
 <summary>
@@ -260,6 +412,7 @@ Detailed questions for follow-up
 </details>
 <p>The <a href="./index.html#feedback-sought">four questions on the Briefing page</a> guide the meeting discussion.</p>
 </section>
+
 <section id="blank-templates" class="level2">
 <h2 class="anchored" data-anchor-id="blank-templates">Blank templates</h2>
 <p><a href="downloads/meeting-worksheet.docx" class="btn btn-primary" download="meeting-worksheet.docx">Download the fillable Word worksheet (.docx)</a> <a href="downloads/meeting-worksheet.md" class="btn btn-outline-primary" download="meeting-worksheet.md">Markdown source (.md)</a> <a href="downloads/assumption-register.csv" class="btn btn-outline-primary" download="assumption-register.csv">Assumption register (.csv)</a></p>
@@ -678,7 +831,7 @@ Detailed questions for follow-up
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Methodological discussion draft · v0.1 · 19 October 2026</p>
+<p>Methodological discussion draft · v0.2 · 20 October 2026</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

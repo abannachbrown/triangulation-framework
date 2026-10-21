@@ -30,10 +30,10 @@ ____________________________________________________________________
 
 ### 2. Compare findings
 
-| Relationship / query and streams | Comparability of populations, measures, timing, and estimands | Agreement / divergence and rationale |
-|---|---|---|
-| | | |
-| | | |
+| Relationship / query and streams | Causal alignment (target question / related question / different link) and integration level (A common effect / B related but non-identical / C different links) | Comparability of populations, measures, timing, and estimands | Agreement / divergence / complementarity and rationale |
+|---|---|---|---|
+| | | | |
+| | | | |
 
 ### 3. Examine bias
 
@@ -51,9 +51,9 @@ ____________________________________________________________________
 | Field | Response |
 |---|---|
 | Trigger for reconsideration | |
-| Diagram / register change, or reason to retain the current version | |
+| Diagram / register change (record edge status: supported / unsupported / uncertain / not adequately investigated), or reason to retain the current version | |
 | Versions after meeting / decision-log reference | |
-| Conclusion and assumptions it depends on | |
+| Conclusion, integration level chosen, and assumptions it depends on | |
 | Relationships informed / untested | |
 | Evidence that could change the conclusion | |
 | Actions / owners / review dates | |

@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#the-argument" id="toc-the-argument" class="nav-link active" data-scroll-target="#the-argument">The argument</a></li>
   <li><a href="#worked-register" id="toc-worked-register" class="nav-link" data-scroll-target="#worked-register">A worked illustration</a></li>
-  <li><a href="#seven-terms-for-this-discussion" id="toc-seven-terms-for-this-discussion" class="nav-link" data-scroll-target="#seven-terms-for-this-discussion">Seven terms for this discussion</a></li>
+  <li><a href="#ten-terms-for-this-discussion" id="toc-ten-terms-for-this-discussion" class="nav-link" data-scroll-target="#ten-terms-for-this-discussion">Ten terms for this discussion</a></li>
   <li><a href="#reference-appendix" id="toc-reference-appendix" class="nav-link" data-scroll-target="#reference-appendix">Reference appendix</a></li>
   <li><a href="#blank-template" id="toc-blank-template" class="nav-link" data-scroll-target="#blank-template">Blank template</a></li>
   </ul>
@@ -200,8 +200,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="worked-register">A worked illustration</h2>
 <p>The <a href="./taar1.html#taar1-dag">TAAR1 example</a> shows the DAG and its assumption register together. Selected labels identify the proxy connection and the proposed mechanism. The <a href="./reporting.html#worked-set">worked evidence summary</a> shows how the register links enter the SET.</p>
 </section>
-<section id="seven-terms-for-this-discussion" class="level2">
-<h2 class="anchored" data-anchor-id="seven-terms-for-this-discussion">Seven terms for this discussion</h2>
+<section id="ten-terms-for-this-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="ten-terms-for-this-discussion">Ten terms for this discussion</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -228,22 +228,35 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><span id="term-estimand"><strong>Estimand</strong></span></td>
-<td>The precise quantity sought: for example, a treatment contrast in a specified population, outcome, and follow-up.</td>
+<td>The precisely specified quantity a question seeks: a descriptive quantity, an association parameter (marginal or adjusted), a causal contrast, or — for hypothesis-generating questions — a candidate relationship that may have no single numerical estimand. An estimand can be specified even when the available data cannot identify it.</td>
 </tr>
 <tr class="odd">
+<td><span id="term-alignment"><strong>Causal alignment assessment</strong></span></td>
+<td>A structured judgement of whether the quantity a stream estimates, or the contribution it makes, addresses the review’s target causal question, a related question, or a different link in the causal pathway — and what assumptions are needed to connect it to the target. Distinct from indirectness (applicability of a quantity) and from risk of bias (validity of a quantity for its own estimand). Assessed narratively at the evidence-summary stage; not scored.</td>
+</tr>
+<tr class="even">
+<td><span id="term-integration-level"><strong>Integration level</strong></span></td>
+<td>The level at which evidence streams can legitimately be integrated, determined by the causal alignment assessment: <strong>A — sufficiently common causal effect</strong> (quantitative integration may be possible); <strong>B — related but non-identical effects or constructs</strong> (retain within-stream synthesis; compare across streams without pooling); <strong>C — different links in a broader causal explanation</strong> (complementary, pathway-/question-level triangulation).</td>
+</tr>
+<tr class="odd">
+<td><span id="term-stream-estimand"><strong>Stream-level estimand</strong></span></td>
+<td>The quantity an evidence stream can estimate in its own terms: population, intervention/exposure, comparator, outcome, timing, summary quantity and effect type. Specified before alignment is judged, so that alignment relates two specified quantities — for example, an animal behavioural contrast and a human clinical contrast — rather than a study and an underspecified ambition.</td>
+</tr>
+<tr class="even">
 <td><span id="term-indirectness"><strong>Indirectness / applicability</strong></span></td>
 <td>A difference between the evidence and the target population, exposure/intervention, outcome, timing, or setting that affects its relevance.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span id="term-set"><strong>SET — Summary of Evidence table</strong></span></td>
 <td>A concise account of findings, bias, applicability, and the assumptions relevant to triangulation.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span id="term-bias-type"><strong>Bias type — offset versus scaling</strong></span></td>
 <td>Offset (additive / shift) bias adds a distortion and can move a true null. Scaling (proportional / stretch) bias multiplies an effect on the stated scale; a true zero remains zero on that scale.</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Alignment is not indirectness.</strong> <em>Indirectness</em> asks whether a stream’s estimate <strong>applies to</strong> the review’s target population, exposure, outcome or setting — a question of applicability of a quantity. <em>Alignment</em> asks whether the stream estimated the review’s <strong>target quantity at all</strong> — a question of what was estimated, connected to the target only through stated assumptions. A stream can be low in indirectness for its own estimand yet misaligned with the review target (the <a href="./taar1.html#taar1-a1">TAAR1 animal behavioural outcome</a>), or closely aligned in quantity yet indirect for the target population (a trial restricted to adults under 65). The Summary of Evidence table keeps the two judgements in their separate places: indirectness in its existing column, alignment in the narrative below the table.</p>
 </section>
 <section id="reference-appendix" class="level2">
 <h2 class="anchored" data-anchor-id="reference-appendix">Reference appendix</h2>
@@ -351,6 +364,26 @@ Additional methodological terms
 <tr class="even">
 <td><span id="term-log"><strong>Decision log</strong></span></td>
 <td>A dated record of changes, reasons, and ownership, linking successive diagram and register versions.</td>
+</tr>
+<tr class="odd">
+<td><span id="term-edge-status"><strong>Edge status</strong></span></td>
+<td>The post-synthesis status of a relationship in the causal graph: <strong>supported</strong>, <strong>unsupported</strong>, <strong>uncertain</strong>, or <strong>not adequately investigated</strong>. Recorded in the decision log when the diagram is revised, paralleling the status judgements in the assumption register.</td>
+</tr>
+<tr class="even">
+<td><span id="term-contribution"><strong>Evidential contribution type</strong></span></td>
+<td>The role a stream plays relative to the target: direct target contribution, related effect, mechanistic, contextual, or assumption-testing. Classified separately from alignment and risk of bias; a stream may hold several roles, and roles are not tied to particular study designs.</td>
+</tr>
+<tr class="odd">
+<td><span id="term-target-version"><strong>Target version</strong></span></td>
+<td>A dated, versioned statement of the review’s target quantity or question. Amended only when the question is intentionally redefined, with justification and a record of the evidence known at the time. An evidential challenge to a mechanism does not by itself change the target.</td>
+</tr>
+<tr class="even">
+<td><span id="term-sem"><strong>SEM — Summary of Evidence on Mediators</strong></span></td>
+<td>The synthesis output of the hypothesis-generating route: a structured summary of evidence on candidate mediator relationships, from which a consensus meeting selects the mediators carried forward. A table, not a diagram — and not a structural equation model.</td>
+</tr>
+<tr class="odd">
+<td><span id="term-causal-graph"><strong>Causal graph</strong></span></td>
+<td>Umbrella term for DAGs, causal DAGs, path diagrams and related visualisations of assumed relationships between variables. An arrow is a causal claim only when it is given a causal interpretation; a diagram drawn to display associations or statistical model structure functions as a causal graph only under that reading.</td>
 </tr>
 </tbody>
 </table>
@@ -774,7 +807,7 @@ Additional methodological terms
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Methodological discussion draft · v0.1 · 19 October 2026</p>
+<p>Methodological discussion draft · v0.2 · 20 October 2026</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

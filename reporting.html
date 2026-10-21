@@ -278,6 +278,23 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </div>
 <p><strong>Below the table:</strong> state the meeting conclusion, the assumptions it depends on, and unresolved questions. The existing bias and indirectness columns retain their roles; the added column connects those judgements to the causal model.</p>
+<p><strong>Alignment is recorded below the table, not in it.</strong> The Key Assumptions column holds only the relationship informed, typed assumption IDs with status, and links. Below the table, one short narrative record per stream row asks whether the stream estimated the review’s target <em>quantity at all</em> — a different judgement from indirectness, which asks whether the estimate <em>applies to</em> the target population, exposure or outcome. A stream can be low in indirectness for its own estimand yet misaligned with the review target (the TAAR1 animal behavioural outcome), or closely aligned in quantity yet indirect for the target population.</p>
+<details>
+<summary>
+Worked alignment narrative — TAAR1 animal stream
+</summary>
+<p><strong>Illustrative narrative record — TAAR1 animal stream</strong> (retrospective reconstruction, for calibration only; not a completed assessment):</p>
+<blockquote class="blockquote">
+<p><strong>SET row and target reference:</strong> TAAR1 animal experimental evidence; target version [draft specification, Component A §A5].</p>
+<p><strong>Stream-level estimand:</strong> Effect of [compound] versus vehicle on reversal of challenge-induced hyperlocomotion in [strains/paradigms as included], reported as [SMD].</p>
+<p><strong>What is being summarised?</strong> Experimental contrasts across animal studies; the synthesis summarises a distribution of animal-specific effects, not the human clinical quantity.</p>
+<p><strong>Main points of alignment or difference:</strong> Different population (species, challenge state), different intervention (preclinical dosing), different outcome (locomotor behaviour versus PANSS-assessed symptoms), different effect definition (experimental contrast, not a treatment-policy effect).</p>
+<p><strong>Why this evidence contributes:</strong> Related-effect and mechanistic contribution; informs the proposed pathway and the behavioural-proxy assumption rather than the clinical target directly.</p>
+<p><strong>What must be assumed to connect it to the target?</strong> A1 (behavioural proxy validity, contested) and A2 (dose/compound applicability, contested).</p>
+<p><strong>Unresolved questions for triangulation:</strong> Whether proxy validity can be evaluated empirically; whether shared biases (for example, publication practices or selective outcome reporting operating across species) could produce concordant directions.</p>
+</blockquote>
+</details>
+<p><a href="downloads/estimand-alignment.md" class="btn btn-outline-primary" download="estimand-alignment.md">Download the full causal alignment assessment guidance (.md)</a></p>
 </section>
 <section id="reporting-the-meeting-outcome" class="level2">
 <h2 class="anchored" data-anchor-id="reporting-the-meeting-outcome">Reporting the meeting outcome</h2>
@@ -303,11 +320,20 @@ ul.task-list li input[type="checkbox"] {
 <td>“The findings agree, but shared bias through [mechanism] remains a possible explanation.”</td>
 </tr>
 <tr class="odd">
+<td>Related but non-identical effects (integration level B)</td>
+<td>“The [animal] and [human] streams address related but non-identical outcomes; their estimates are compared but not pooled, and their consistency is conditional on [assumption].”</td>
+</tr>
+<tr class="even">
+<td>Complementary contributions (integration level C)</td>
+<td>“The streams inform different links in the causal pathway and are interpreted as complementary; together they [support / leave uncertain] the proposed explanation, conditional on [assumptions].”</td>
+</tr>
+<tr class="odd">
 <td>Contributions diverge</td>
 <td>“The findings diverge for [relationship]; differences in [estimands, applicability, or bias] remain unresolved.”</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Preserving magnitude and uncertainty.</strong> Conclusions about agreement or divergence must preserve or point to effect magnitude and uncertainty (for example, the estimate with its confidence interval), not direction alone; a summary estimate should not be reduced to a qualitative claim such as “supports efficacy”.</p>
 <details>
 <summary>
 Detailed questions for follow-up
@@ -737,7 +763,7 @@ Detailed questions for follow-up
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Methodological discussion draft · v0.1 · 19 October 2026</p>
+<p>Methodological discussion draft · v0.2 · 20 October 2026</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
