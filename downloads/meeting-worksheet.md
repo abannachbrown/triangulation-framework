@@ -30,7 +30,7 @@ ____________________________________________________________________
 
 ### 2. Compare findings
 
-| Relationship / query and streams | Causal alignment (target question / related question / different link) and integration level (A common effect / B related but non-identical / C different links) | Comparability of populations, measures, timing, and estimands | Agreement / divergence / complementarity and rationale |
+| Relationship / query and streams | Causal alignment — estimand identity between each stream-level estimand and the review target (target question / related question / different link) — and integration level (A common effect / B related but non-identical / C different links) | Within-stream applicability (indirectness): does each stream's evidence apply to the population, measures, and timing its own estimand specifies? | Agreement / divergence / complementarity and rationale |
 |---|---|---|---|
 | | | | |
 | | | | |
